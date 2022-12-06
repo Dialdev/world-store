@@ -1,0 +1,596 @@
+AWSTATS DATA FILE 7.2 (build 1.992)
+# If you remove this file, all statistics for date 201705 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ws.dialweb.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1993                
+POS_TIME 2681                
+POS_VISITOR 15155               
+POS_DAY 15922               
+POS_DOMAIN 3577                
+POS_LOGIN 3816                
+POS_ROBOT 3971                
+POS_WORMS 4171                
+POS_EMAILSENDER 4302                
+POS_EMAILRECEIVER 4445                
+POS_SESSION 16336               
+POS_SIDER 16532               
+POS_FILETYPES 4580                
+POS_DOWNLOADS 4874                
+POS_OS 4955                
+POS_BROWSER 5110                
+POS_SCREENSIZE 5421                
+POS_UNKNOWNREFERER 5495                
+POS_UNKNOWNREFERERBROWSER 5652                
+POS_ORIGIN 5804                
+POS_SEREFERRALS 5948                
+POS_PAGEREFS 6092                
+POS_SEARCHWORDS 6240                
+POS_KEYWORDS 6392                
+POS_MISC 2343                
+POS_ERRORS 6451                
+POS_CLUSTER 3672                
+POS_SIDER_404 6602                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170524232959 3507 989172 10911162776542
+FirstTime 20170512151305
+LastTime 20170524232959
+LastUpdate 20170525000627 3507 0 3507 0 0
+TotalVisits 29                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 330 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2115 2153 22772818 12 18 99493
+1 1468 1487 12882322 0 4 5828
+2 517 517 4246998 2 3 60833
+3 237 352 2959055 2 4 3038
+4 602 639 3409342 0 7 303445
+5 140 145 1182468 6 11 501957
+6 193 248 1666922 3 16 410848
+7 1525 1641 18960680 28 39 946992
+8 1939 2671 19302179 8 37 360422
+9 3779 4888 52027392 9 42 529864
+10 10509 12673 110034757 11 72 268303
+11 13660 16253 151488494 21 104 686042
+12 12175 14109 138028567 37 123 739540
+13 4864 5318 47646843 9 30 226181
+14 12081 12939 142460888 5 32 406512
+15 8074 9452 100344513 40 184 388929
+16 10457 13092 143023629 32 145 1037297
+17 7109 7835 68655815 7 80 462873
+18 7829 8688 76055062 20 93 523178
+19 1802 2123 12236056 7 39 660711
+20 6 60 840444 5 9 342893
+21 0 0 0 35 39 348580
+22 0 12 0 1 1 5004
+23 46 198 3125322 2 7 65568
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 101127 117493 1133350204
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+yandex 272 6923113 20170524221536 0
+libwww 1 27299 20170524022635 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 3521 9995865 0 0
+png 2361 29644711 0 0
+htm 18 14102 0 0
+woff2 533 31997415 0 0
+map 176 843771 0 0
+php 95312 766372346 0 0
+html 5088 91210775 0 0
+js 6066 45860873 0 0
+jpg 4084 157213248 0 0
+svg 28 50057 0 0
+gif 306 146679 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/core/docs/changelog.txt 0 1 362
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx 52 6
+linuxandroid 532 52
+winnt 7378 6809
+Unknown 13 13
+linux 1 1
+win7 109518 94246
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 12
+safari9.0 3 2
+mozilla 2 2
+chrome57.0.2987.133 2861 2613
+chrome58.0.3029.83 71 8
+chrome58.0.3029.81 118 10
+chrome55.0.2883.75 1 1
+safari10.0 49 4
+chrome58.0.3029.96 349 48
+chrome56.0.2924.87 13177 9748
+msie9.0 1 1
+Unknown 13 13
+chrome58.0.3029.110 100849 88677
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Bitrix_link_preview 20170524113858
+WhatsApp/2.17.146_A 20170518140236
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Bitrix_link_preview 20170524113858
+WhatsApp/2.17.146_A 20170518140236
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 390 396
+From1 1 1
+From2 0 0
+From3 0 0
+From4 100736 117097
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 32 14848
+503 1 639
+302 47 25242
+500 2 1230
+301 20 10146
+404 432 1901004
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 115
+/js/jquery.inputmask.bundle.min.js 6 http://ws.dialweb.ru/
+/upload/items/56/iphone-5s-zolotoj-000388.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/ 1 http://ws.dialweb.ru/otzyivyi.html
+/templates/sass/styles.sass 1 -
+/iphone/iphone-7-plus/js/FlexSlider/jquery.flexslider.min.js 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/ipod/upload/catalog/ipod/ipod-touch-6.jpg 1 http://ws.dialweb.ru/ipod/ipod-touch.html
+/robots.txt 9 -
+/upload/items/56/product-03.jpg 16 http://ws.dialweb.ru/iphone/iphone-5s/
+/js/jquery-migrate-3.0.0.js 5 http://ws.dialweb.ru/
+/img/trash/product-05.jpg 4 http://ws.dialweb.ru/
+/template/img/trash/product-11.png 10 http://ws.dialweb.ru/manager/
+/iphone/iphone-5s/2013-iphone5s-gray.png 3 http://ws.dialweb.ru/iphone/iphone-5s/
+/ipod/ipod-touch/upload/catalog/ipod/ipod-touch-6.jpg 4 http://ws.dialweb.ru/ipod/ipod-touch/
+/templates/img/bu 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/img/iphone-7.jpg 4 http://ws.dialweb.ru/
+/iphone/ipad.html 2 http://ws.dialweb.ru/iphone/
+/js/slick/slick.css 3 http://ws.dialweb.ru/
+/https://prnt.sc/f97hqy 1 -
+/iphone/iphone-5s/upload/items/50/iphone6p-gold-select-2014.png 3 http://ws.dialweb.ru/iphone/iphone-5s/iphone-5s-16gb-gold.html
+/img/iphone-6.jpg 4 http://ws.dialweb.ru/
+/img/iphone-se.jpg 4 http://ws.dialweb.ru/
+/iphone/apple-watch.html 1 http://ws.dialweb.ru/iphone/ipod.html
+/iphone/iphone-7-plus.html 1 http://ws.dialweb.ru/iphone/
+/img/trash/img-news-04.jpg 4 http://ws.dialweb.ru/
+/upload/items/56/iphone5s-gallery6-2013.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/upload/items/product-03.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/upload/items/iphone6p-gold-select-2014.png 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/iphone/iphone-6/assets/images/%20section/1-1.png 11 http://ws.dialweb.ru/iphone/iphone-6/
+/templates/img/buy 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/upload/items/278/silver81.jpg 2 http://ws.dialweb.ru/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-128gb-gray.html
+/assets/components/shopkeeper3/mgr/js/angular/angular.min.js.map 2 -
+/news/the-new.jpg 4 http://ws.dialweb.ru/manager/
+/iphone/iphone-7-plus/js/fancybox/fancybox.js 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/upload/items/2013-iphone5s-gray.png 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/img/trash/product-04.jpg 4 http://ws.dialweb.ru/
+/templates/img/b 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/catalog/iphone/iphone-5s.jpg 5 http://ws.dialweb.ru/catalog/iphone/iphone-5s.jpg
+/novosti/img/trash/bg-header-news-list.jpg 1 http://ws.dialweb.ru/novosti/
+/apple-watch.html 1 -
+/img/trash/product-11.png 15 http://ws.dialweb.ru/manager/
+/img/trash/product-10.png 13 http://ws.dialweb.ru/manager/
+/img/trash/product-03.jpg 4 http://ws.dialweb.ru/
+/upload/items/101/iphone6p-gray-select-20148.png 2 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-16gb-space-grey.html
+/img/trash/product-06.jpg 4 http://ws.dialweb.ru/
+/upload/items/56/iphone-5s-black-back.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/upload/items/283/2143.jpg 1 http://ws.dialweb.ru/ipad/ipad-air-2/
+/upload/news/apple-red-iphone.jpg 3 http://ws.dialweb.ru/manager/
+/iphone/iphone-7-plus/img/cards.jpg 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/iphone/iphone-5s/assets/components/shopkeeper3/web/css/default/delete.gif 28 http://ws.dialweb.ru/iphone/iphone-5s/iphone-5s-16gb-silver.html
+/otzyivyi.html%D0%B0%D0%BF%D0%B0%D0%BF%D0%B0 1 -
+/iphone/iphone-5s/img/trash/product-07.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/styles/styles.css 3 http://ws.dialweb.ru/
+/templates/img/buy-titl 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/img/iphone-6S.jpg 4 http://ws.dialweb.ru/
+/templates/img/buy-title. 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/ipad/ipad-air-4/ 1 -
+/templates/img/buy-ti 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/novosti/upload/news/apple-red-iphone1.jpg 4 http://ws.dialweb.ru/novosti/ajfon-7-krasnogo-czveta-uzhe-v-prodazhe.html
+/novosti/upload/news/iphone-7-product-red-large.jpg 1 http://ws.dialweb.ru/novosti/ajfon-7-krasnogo-czveta-uzhe-v-prodazhe.html
+/img/product-red.png 6 http://ws.dialweb.ru/
+/img/iphone-6-plus.jpg 4 http://ws.dialweb.ru/
+/js/slick/slick.min.js 6 http://ws.dialweb.ru/
+/img/trash/img-news-02.jpg 4 http://ws.dialweb.ru/
+/iphone/ipod.html 1 http://ws.dialweb.ru/iphone/ipad.html
+/aksessuaryi.html 1 -
+/novosti/upload/news/5e-600x335.jpg 3 http://ws.dialweb.ru/novosti/novyij-iphone-5e-uluchshennaya-versiya-iphone-5s.html
+/iphone/iphone-5s/iphone6p-gold-select-2014.png 3 http://ws.dialweb.ru/iphone/iphone-5s/
+/novosti/upload/news/the-new.jpg 3 http://ws.dialweb.ru/novosti/oshelomlyayushhaya-novinka-ot-apple.html
+/iphone/iphone-6/assets/images/%20section/1-2.png 8 http://ws.dialweb.ru/iphone/iphone-6/
+/iphone/iphone-5s/product-03.jpg 3 http://ws.dialweb.ru/iphone/iphone-5s/
+/iphone/iphone-7-plus/js/FlexSlider/flexslider.css 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/assets/components/ajaxform/js/custom.js 10 http://ws.dialweb.ru/assets/components/ajaxform/js/custom.js
+/upload/items/56/2013-iphone5s-gray.png 17 http://ws.dialweb.ru/iphone/iphone-5s/
+/upload/items/109/iphone6p-gray-select-20148.png 1 http://ws.dialweb.ru/iphone/iphone-6/
+/upload/items/56/product-05.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/iphone/iphone-5s/1380184191-93556-silver-iphone-5s.800x600.jpg 3 http://ws.dialweb.ru/iphone/iphone-5s/
+/img/trash/product-02.jpg 4 http://ws.dialweb.ru/
+/img/trash/product-01.jpg 4 http://ws.dialweb.ru/
+/templates/img/buy-tit 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/news 5 -
+/assets/components/shopkeeper3/mgr/js/angular/angular-sanitize.min.js.map 2 -
+/img/trash/img-news-03.jpg 4 http://ws.dialweb.ru/
+/templates/img/buy-title.pn 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/novosti/upload/news/new-apple.jpg 1 http://ws.dialweb.ru/novosti/novoe-slovo-ot-apple.html
+/mac.html 1 http://ws.dialweb.ru/iphone/
+/iphone/ 9 http://ws.dialweb.ru/manager/
+/styles/reset.css 3 http://ws.dialweb.ru/
+/iphone/iphone-7-plus/js/fancybox/fancybox.css 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/img/trash/slide-01.jpg 4 http://ws.dialweb.ru/
+/upload/items/56/iphone6p-gold-select-2014.png 16 http://ws.dialweb.ru/iphone/iphone-5s/
+/ipod.html 1 -
+/upload/items/1380184191-93556-silver-iphone-5s.800x600.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/iphone/iphone-7-plus/js/fancybox/mousewheel.js 1 http://ws.dialweb.ru/iphone/iphone-7-plus/iphone-7-32gb-gold.html
+/novosti/upload/news/The-new.jpg 1 http://ws.dialweb.ru/novosti/oshelomlyayushhaya-novinka-ot-apple.html
+/manager/assets/modext/modx.jsgrps-min.js.map 14 -
+/js/jquery-3.1.1.js 5 http://ws.dialweb.ru/
+/img/iphone-5s.jpg 4 http://ws.dialweb.ru/
+/iphone/iphone-5s/upload/items/50/iphone-5s-zolotoj-000388.jpg 3 http://ws.dialweb.ru/iphone/iphone-5s/iphone-5s-16gb-gold.html
+/templates/img/buy-title 2 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/install 1 -
+/iphone/iphone-6/assets/images/%20section/1-3.png 7 http://ws.dialweb.ru/iphone/iphone-6/
+/templates/img/buy-title/ 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/upload/items/56/product-04.jpg 1 http://ws.dialweb.ru/iphone/iphone-5s/
+/templates/js/jquery-3.2.1.min.js 2 http://ws.dialweb.ru/mac.html
+/styles/font-awesome.min.css 3 http://ws.dialweb.ru/
+/img/icons/label-map.png 4 http://ws.dialweb.ru/kontaktyi.html
+/template/img/trash/product-10.png 14 http://ws.dialweb.ru/manager/
+/templates/img/buy-title.p 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/img/trash/img-news-01.jpg 4 http://ws.dialweb.ru/
+/js/main.js 6 http://ws.dialweb.ru/
+/World_Store_Dial/images/dial_new/footer.png 2 http://ws.dialweb.ru/
+/upload/items/271/gray94.jpg 1 http://ws.dialweb.ru/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-cellular-32gb-gold.html
+/templates/img/buy- 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+/upload/bg-header-news-list.jpg 3 http://ws.dialweb.ru/novosti/
+/templates/img/buy-t 1 http://ws.dialweb.ru/iphone/iphone-6/iphone-6-128gb-silver.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+91.244.244.4 94277 109802 1055538413 20170524120533
+109.111.1.64 4145 4354 43021482 20170522022248
+109.111.18.26 1663 1804 20868083 20170523085441
+176.213.200.108 979 1136 7550865 20170521051851
+176.213.123.111 23 85 1301697 20170522085706
+80.80.195.53 12 60 1396649 20170514130745
+176.59.49.170 7 70 1127102 20170523124355
+80.80.194.12 4 12 16848 20170514182934
+83.220.236.238 4 49 825918 20170518140338
+80.80.194.36 3 4 4212 20170514200505
+88.99.141.3 1 1 5978 20170524232959 20170524232959 /iphone/iphone-6s/
+109.111.2.9 3 57 838054 20170520152316
+217.118.78.89 2 2 11532 20170523110609
+95.139.189.140 3 56 836232 20170523203902
+176.59.45.129 1 1 6777 20170524074100
+194.58.115.160 0 1 362 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20170512 3011 5019 65816698 1
+20170514 19 76 1417709 3
+20170515 6367 7678 55629364 2
+20170516 2632 2927 18419746 1
+20170517 20083 22282 131582548 2
+20170518 38814 43577 463777057 2
+20170519 4511 7214 54660449 2
+20170520 3 57 838054 1
+20170521 1024 1333 10670209 2
+20170522 20603 21230 264455622 3
+20170523 1970 2800 33588909 7
+20170524 2090 3300 32494201 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 14
+5mn-15mn 3
+30s-2mn 1
+15mn-30mn 2
+0s-30s 7
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 187
+/connectors/index.php 68001 402389136 3 11
+/connectors/system/phpthumb.php 13517 222337680 0 0
+/assets/components/versionx/connector.php 3327 4932915 0 0
+/manager/ 2969 81175234 3 0
+/connectors/lang.js.php 2750 65610988 0 0
+/connectors/modx.config.js.php 2553 18012884 0 0
+/assets/components/collections/connector.php 2399 44632246 0 0
+/assets/components/migx/connector.php 2224 5908598 0 0
+/novosti/ 331 1621924 0 0
+/templates/fonts/Lato-Regular.woff2 314 15796248 0 1
+/iphone/iphone-6-plus/iphone-6-128gb-gold.html 4 18948 0 0
+/mac/macbook/ 8 31224 0 0
+/ 273 1506138 21 4
+/iphone/iphone-7-plus/iphone-7-256-gb-red.html 4 19310 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-128gb-silver.html 1 4448 0 0
+/iphone/iphone-6s/iphone-6s32gb-space-gray.html 1 4185 0 0
+/iphone/iphone-se/iphone-se-64gb-silver.html 2 8938 0 0
+/manager/index.php 10 40198 0 0
+/iphone/iphone-6s/iphone-6s-32gb-space-gray.html 3 12845 0 0
+/iphone/iphone-5s/iphone-5s-16gb-gold.html 37 158052 0 0
+/assets/components/tinymce/jscripts/tiny_mce/themes/advanced/about.htm 2 2804 0 0
+/ipod/ 15 76309 0 0
+/iphone/iphone-5s/iphone-5s-16gb-space-grey.html 13 58325 0 0
+/iphone/iphone-6-plus/iphone-6-64gb-space-grey.html 8 37982 0 0
+/manager/templates/default/fonts/fontawesome-webfont.woff2 17 774300 0 0
+/apple-watch/apple-watch-1/ 2 7274 0 0
+/assets/components/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm 1 758 0 0
+/iphone/iphone-se/iphone-se-16gb-gray.html 14 62818 0 0
+/ipad/ipad-new/apple-ipad-new-128gb-wi-fi-4g-white.html 2 7574 0 0
+/iphone/iphone-6/iphone-6-64gb-silver.html 1 4704 0 0
+/iphone/iphone-6s/iphone-6s32gb-gold.html 1 4181 0 0
+/iphone/iphone-6s-plus/ 11 54566 0 1
+/iphone/iphone-se/iphone-se-128-gb-gold.html 1 4494 0 0
+/novosti/novinka-iphone-se.html 1 4559 0 0
+/novosti/budet-li-novaya-model-umnyix-chasov-apple-watch-krugloj.html 1 4282 0 0
+/iphone/iphone-6/iphone-6-16gb-gold.html 4 18818 0 0
+/iphone/iphone-6s/iphone-6s-16gb-rose-gold.html 1 4252 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-128gb-gray.html 3 13241 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-cellular-32gb-rose-gold.html 1 4455 0 0
+/novosti/sravnenie-iphone-se-i-iphone-5s.html 1 4134 0 0
+/iphone/iphone-6-plus/iphone-6-16gb-space-grey.html 1 4744 0 0
+/iphone/iphone-7-plus/iphone-7-32gb-gold.html 22 92274 0 0
+/novosti/sravnenie-proizvoditelnosti-iphone-7-i-iphone-7-plus.html 1 4420 0 0
+/iphone/iphone-se/iphone-se-64gb-gray.html 2 8976 0 0
+/korzina.html 138 549107 0 0
+/iphone/iphone-6s/iphone-6s-16gb-space-grey2.html 1 3560 0 0
+/iphone/iphone-6s/ 27 107363 1 0
+/iphone/iphone-7-plus/ 26 157659 0 0
+/assets/components/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm 11 4880 0 0
+/ipad/ipad-pro-12.9/ 3 16518 0 0
+/novosti/obzor-ipod-nano.html 10 47557 0 0
+/templates/styles/styles.css.map 81 744022 0 1
+/iphone/iphone-se/iphone-se-16gb-rose-gold.html 3 13715 0 0
+/iphone/iphone-6/iphone-6-128gb-silver.html 19 92611 0 0
+/iphone/iphone-6s/iphone-6s-64gb-space-gray.html 1 4231 0 0
+/iphone/iphone-6-plus/iphone-6-64gb-gold-%EF%BB%BF.html 3 14237 0 0
+/novosti/innovaczionnyie-naushniki-ot-airpods.html 18 87295 0 0
+/mac.html 21 87817 0 0
+/iphone/ 118 581336 0 1
+/iphone/iphone-6-plus/ 14 63839 0 0
+/iphone/iphone-se/iphone-se-64gb-gold.html 2 8978 0 0
+/ipod.html 6 18569 0 0
+/iphone/iphone-6/iphone-6-64gb-gold.html 2 9409 0 0
+/iphone/iphone-6s/iphone-6s32gb-silve.html 1 4183 0 0
+/aksessuaryi/ 12 42820 0 0
+/iphone/iphone-7-plus/iphone-7-128gb-jet-black.html 2 10081 0 0
+/aksessuaryi/apple-tv-464gb.html 1 3882 0 0
+/iphone/iphone-6/iphone-6-128gb-space-grey.html 2 9416 0 0
+/iphone/iphone-6s/iphone-6s-64gb-silver.html 1 4222 0 0
+/novosti/opublikovano-pervoe-video-novogo-4x-dyujmovogo-iphone-5e.html 2 6826 0 0
+/ipad/ 22 126687 0 0
+/iphone/iphone-5s/iphone-6s-16gb-space-grey.html 1 3473 0 0
+/novosti/dolgozhdannoe-obnovlenie-serii-ipad-air.html 6 22295 0 0
+/apple-watch/ 12 40128 0 1
+/iphone/iphone-se/iphone-se-32gb-rose-gold.html 1 4496 0 0
+/mac/apple-mac-mini/ 16 50355 0 0
+/iphone/iphone-6s/iphone-6s-32gb-silver.html 2 8862 0 0
+/ipad/ipad-pro-12.9/apple-ipad-pro-12.9-32gb-wi-fi-gold2.html 1 4442 0 0
+/novosti/preimushhestva-ipod-touch.html 25 82955 0 0
+/iphone/iphone-se/iphone-se-128gb-gray.html 4 17976 0 0
+/servis.html 82 533981 1 2
+/ipod/ipod-nano.html 1 5076 0 0
+/setup/ 1 602 0 0
+/iphone/iphone-6-plus/iphone-6-16gb-silver.html 1 4768 0 0
+/iphone/iphone-5s/ 96 525600 0 0
+/iphone/iphone-5s/iphone-5s-16gb-silver.html 97 458486 0 0
+/ipad.html 8 24869 0 0
+/iphone/iphone-6s/iphone-6s-32gb-rose-gold.html 1 4250 0 0
+/ipod/ipod-touch.html 2 10331 0 0
+/assets/components/shopkeeper3/mgr/js/ng-table/ng-table.map 1 10929 0 0
+/iphone/iphone-7-plus.html 1 4434 0 0
+/novosti/pokupaya-produkcziyu-(red)-apple,-vyi-vnosite-vklad-v-borbu-so-spidom.html 6 25280 0 0
+/assets/components/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm 4 5660 0 0
+/apple-watch/apple-watch-2/apple-watch-2-42mm-silver-aluminum-case-with-white-sport-band.html 1 4405 0 0
+/templates/fonts/fontawesome-webfont.woff2 201 15408570 0 3
+/assets/components/ajaxform/action.php 24 13290 0 0
+/ipad/ipad-air-2/apple-ipad-air-2-16-gb-gold-(zolotoj).html 1 5136 0 0
+/ipod/ipod-nano/ipod-nano/apple-ipod-nano16gb-rozovyij.html 1 4560 0 0
+/iphone/iphone-6/iphone-6-16gb-space-grey.html 14 77836 0 0
+/iphone/iphone-6s/iphone-6s-16gb-space-gray.html 4 16109 0 0
+/apple-watch.html 7 20159 0 0
+/novosti/oshelomlyayushhaya-novinka-ot-apple.html 13 61409 0 0
+/ipad/ipad-mini-4/ 3 16510 0 0
+/novosti/ajfon-7-krasnogo-czveta-uzhe-v-prodazhe.html 19 94771 0 0
+/iphone/iphone-6s/iphone-6s-128gb-rose-gold.html 1 4251 0 0
+/assets/components/clientconfig/connector.php 41 36691 0 0
+/iphone/iphone-7-plus/iphone-7-128gb-rose-gold.html 9 45231 0 0
+/iphone/iphone-se/iphone-se-64gb-rose-gold.html 2 8986 0 0
+/novosti/pochemu-stoit-kupit-apple-watch-2.html 4 11889 0 0
+/iphone/iphone-se/iphone-se-128gb-rose-gold.html 1 4489 0 0
+/iphone/iphone-6s/iphone-6s-64gb-gold.html 1 4220 0 0
+/novosti/novyij-iphone-5e-uluchshennaya-versiya-iphone-5s.html 4 15025 0 0
+/setup/index.php 8 17316 0 0
+/iphone/iphone-se/iphone-se-32gb-silver.html 2 9208 0 0
+/iphone/iphone-se.html 1 4562 0 0
+/apple-watch/apple-watch-2/apple-watch-2-38mm-stainless-steel-case-with-saddle-brown-classic-buckle.html 1 4409 0 0
+/test.html 7 20076 0 0
+/mac/monobloki-apple/ 10 38680 0 0
+/assets/components/tickets/action.php 70 45356 0 0
+/templates/img/ 2 1982 0 0
+/ipad/ipad-pro-12.9/apple-ipad-pro-12.9-32gb-wi-fi-gold.html 1 4485 0 0
+/novosti/uyazvimaya-novinka-iphone-6-plus,-ili-apple-s-budushhim-naperegonki.html 1 4746 0 0
+/iphone/iphone-6-plus/iphone-6-16gb-gold.html 1 4739 0 0
+/assets/components/shopkeeper3/connector.php 10 11107 0 0
+/assets/components/shopkeeper3/connector_fe.php 243 208379 0 1
+/novosti/reklama-%E2%80%93-%C2%ABmashina%C2%BB-dlya-prodvizheniya-brenda.html 1 4991 0 0
+/novosti/apple-pridumala-prozrachnyij-iphone-dlya-peshexodov.html 1 4243 0 0
+/novosti/speshite-akcziya!.html 1 3076 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-128gb-gold.html 1 4445 0 0
+/iphone/iphone-6s/iphone-6s-16gb-silver.html 1 4222 0 0
+/aksessuaryi.html 6 17433 0 0
+/iphone/iphone-se/iphone-se-32gb-gray.html 1 4492 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-cellular-32gb-gold.html 2 8828 0 0
+/iphone/iphone-6/ 18 82572 0 0
+/populyarnyie-tovaryi.html 22 76719 0 0
+/iphone/iphone-se/aayivavyiavyi.html 2 8984 0 0
+/assets/components/tickets/connector.php 122 2066807 0 0
+/ipad/ipad-air-2/ 4 18983 0 0
+/ipod/ipod-touch/ 4 21996 0 0
+/iphone/iphone-7-plus/iphone-7-256gb-jet-black.html 1 5047 0 0
+/ipad/ipad-pro-9.7/ 3 16945 0 0
+/novosti/novoe-slovo-ot-apple.html 10 50464 0 0
+/ipad/ipad-pro-9.7.html 1 5281 0 0
+/templates/styles/reset.css.map 93 87634 0 1
+/iphone/iphone-se/iphone-se-128gb-silver.html 1 4494 0 0
+/apple-watch/apple-watch-2/apple-watch-2-42mm-space-gray-aluminum-case-with-black-woven-nylon.html 1 4414 0 0
+/ipod/ipod-touch/apple-ipod-touch-6-128gb-zolotoj.html 1 4463 0 0
+/ipod/ipod-nano/ 3 16118 0 0
+/assets/components/shopkeeper3/mgr/css/bootstrap-custom/fonts/glyphicons-halflings-regular.woff2 1 18297 0 0
+/apple-watch/apple-watch-1/apple-watch-sport-42-mm-with-sport-band-blue,green,-orange,-pink.html 1 4480 0 0
+/poisk.html 33 140294 0 0
+/novosti/apple-predstavila-dva-novyix-iphone-%E2%80%94-iphone-6-i-iphone-6-plus.html 2 11088 0 0
+/assets/components/batcher/connector.php 6 81020 0 0
+/iphone/iphone-6s/iphone-6s-128gb-space-gray.html 1 4233 0 0
+/otzyivyi.html 114 526158 0 0
+/iphone/iphone-7-plus/iphone-7-256gb-rose-gold.html 4 20200 0 0
+/setup/processors/connector.php 2 16432 0 0
+/apple-watch/apple-watch-2/apple-watch-2-42mm-space-black-stainless-steel-case-with-space-black-link-bracelet.html 1 3923 0 0
+/iphone/iphone-se/ 18 96556 0 0
+/novosti/apple-predstavila-ipod-touch-v-yarkix-czvetax-s-kameroj-isight.html 1 3958 0 0
+/iphone/iphone-se/iphone-se-16gb-silver.html 2 8650 0 0
+/iphone/iphone-6s.html 2 6092 0 0
+/iphone/iphone-6s/iphone-6s64gb-silver.html 1 4191 0 0
+/templates/js/slick/ 1 729 0 0
+/mac/monobloki-apple/apple-imac-mk-482eu.html 1 3217 0 0
+/iphone/iphone-7/ 7 37276 0 0
+/iphone/iphone-7-plus/iphone-7-32gb-silver.html 1 4989 0 0
+/iphone/iphone-7-plus/iphone-7-32gb-rose-gold.html 3 5918 0 0
+/iphone/iphone-6-plus/iphone-6-64gb-silver.html 1 4765 0 0
+/ipad/ipad-air-2/apple-ipad-air-2-16-gb-silver-(serebristyij).html 3 13162 0 0
+/ipad/ipad-pro-12.9.html 2 8646 0 0
+/kontaktyi.html 42 162368 0 0
+/mac/ 64 196929 0 1
+/iphone/iphone-7-plus/iphone-7-128-gb-red.html 5 22256 0 0
+/apple-watch/apple-watch-2/ 2 7403 0 0
+/iphone/iphone-6/iphone-6-16gb-silver.html 4 31391 0 0
+/ipod/ipod-touch/apple-ipod-touch-6-16gb-rozovyij.html 2 9082 0 0
+/ipad/ipad-pro-9.7/apple-ipad-pro-9.7-wi-fi-128gb-rose-gold.html 1 4448 0 0
+/iphone/iphone-6s/iphone-6s-16gb-gold.html 1 4222 0 0
+/iphone/iphone-6-plus/iphone-6-128gb-space-grey.html 2 9538 0 0
+/assets/components/shopkeeper3/shk_config.php 4 10860 0 0
+/index.php 1 443 0 0
+/iphone/iphone-se/iphone-se-16gb-gold.html 8 34298 0 0
+/ipad/ipad-new/ 2 7101 0 0
+/iphone/iphone-6/iphone-6-128gb-gold.html 1 4703 0 0
+/iphone/iphone-6s/iphone-6s-128gb-silver.html 1 4223 0 0
+/assets/components/shopkeeper3/mgr/js/angular-spinner/angular-spinner.min.js.map 1 1186 0 0
+END_SIDER

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'shopkeeper3',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ec8413dbe9323f50bcdc23a12337c902',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'f3efed1266d89f5ad611cbfdeffcb5d8',
+  'native_key' => 'OnSHKcalcTotaQuantity',
+  'object' => '{"name":"OnSHKcalcTotaQuantity","service":6,"groupname":"Shopkeeper3"}',
+);

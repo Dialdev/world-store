@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tickets',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '72f78e10cd9120c37698597a1cbbf43f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'e06b12d090b2d14022517d473dcd1164',
+  'native_key' => 'tickets.section_content_default',
+  'object' => '{"key":"tickets.section_content_default","value":"[[!pdoPage?\\n\\t&element=`getTickets`\\n]]\\n\\n[[!+page.nav]]","xtype":"textarea","namespace":"tickets","area":"tickets.section","editedon":null}',
+);

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tag_manager2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '29eaef816e75679cc7704e65437698cd',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '0093ef1996e0205638670e2d72beada5',
+  'native_key' => 'tag_mgr2.propertySetName',
+  'object' => '{"key":"tag_mgr2.propertySetName","value":"catalog_filters","xtype":"textfield","namespace":"tag_manager2","area":"module","editedon":null}',
+);

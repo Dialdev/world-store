@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'tag_manager2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '8263d82d6e0f182c82a8070f30a474d7',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'adb80331897da3ca6650cfff5e93cac6',
+  'native_key' => 'tag_mgr2.className',
+  'object' => '{"key":"tag_mgr2.className","value":"modResource","xtype":"textfield","namespace":"tag_manager2","area":"module","editedon":null}',
+);

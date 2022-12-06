@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/ws.dialweb.ru/webstat"
+AuthUserFile /var/www/dev_not_bitrix/data/etc/12394916.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

@@ -1,0 +1,73 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '8a2ea866bfac7c706ee29f412348862d' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":0,"propertyset":0}',
+        'guid' => '02d26012511f5d590c48cc4d234ad9b6',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormSave',
+        ),
+        'signature' => '5ab2d7e19042b6a804cdc4fdf94ed9d3',
+      ),
+      'db0878a948568e94c2012cac6d9d89c5' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnCacheUpdate","priority":0,"propertyset":0}',
+        'guid' => '8f00b71e5f4ed5dee4f969514ace68e5',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnCacheUpdate',
+        ),
+        'signature' => 'bae607b2812b35669bb83eac25846fa3',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'tag_manager2',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'cceaea0e6bf8cea60a40719e13bc2268',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'c390b83e5a834818a5c8b23a59c4abb7',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":1,"property_preprocess":0,"name":"tmRefresh","description":"Refresh tagManager filters data.","editor_type":0,"category":0,"cache_type":0,"plugincode":"","locked":0,"properties":"a:0:{}","disabled":1,"moduleguid":"","static":1,"static_file":"core\\/components\\/tag_manager2\\/elements\\/plugins\\/plugin.tm_refresh.php","content":""}',
+);

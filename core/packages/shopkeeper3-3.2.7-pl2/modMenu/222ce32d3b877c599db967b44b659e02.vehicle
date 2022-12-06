@@ -1,0 +1,30 @@
+<?php return array (
+  'preserve_keys' => true,
+  'update_object' => true,
+  'unique_key' => 'text',
+  'related_objects' => true,
+  'related_object_attributes' => 
+  array (
+    'Action' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'namespace',
+        1 => 'controller',
+      ),
+    ),
+  ),
+  'namespace' => 'shopkeeper3',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '304f0d26bcfde72ceb960f9ec2b3a609',
+  'package' => 'modx',
+  'class' => 'modMenu',
+  'signature' => '222ce32d3b877c599db967b44b659e02',
+  'native_key' => 'shopkeeper3',
+  'object' => '{"text":"shopkeeper3","parent":"components","action":"index","description":"shk3.menu_desc","icon":"","menuindex":0,"params":"","handler":"","permissions":"","namespace":"shopkeeper3"}',
+);

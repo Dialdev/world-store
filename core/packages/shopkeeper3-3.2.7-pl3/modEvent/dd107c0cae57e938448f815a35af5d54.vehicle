@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'shopkeeper3',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'bc5b1e0e2aa18868f02f93029b6cc7ea',
+  'package' => 'modx',
+  'class' => 'modEvent',
+  'signature' => 'dd107c0cae57e938448f815a35af5d54',
+  'native_key' => 'OnSHKChangeStatus',
+  'object' => '{"name":"OnSHKChangeStatus","service":6,"groupname":"Shopkeeper3"}',
+);

@@ -1,0 +1,160 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '972b721b0020e6cff34e735434701f2b' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tm2_filterNumericTpl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div id=\\"range_[[+name]]\\" class=\\"range-slider\\"><\\/div>\\n<div class=\\"filter_slider\\">\\n    \\u043e\\u0442\\n    <input type=\\"text\\" id=\\"[[+name]]Min\\" value=\\"[[+min]]\\" name=\\"f_[[+name]][from]\\" style=\\"width:50px;\\" \\/>\\n    \\u0434\\u043e\\n    <input type=\\"text\\" id=\\"[[+name]]Max\\" value=\\"[[+max]]\\" name=\\"f_[[+name]][to]\\" style=\\"width:50px;\\" \\/>\\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"<div id=\\"range_[[+name]]\\" class=\\"range-slider\\"><\\/div>\\n<div class=\\"filter_slider\\">\\n    \\u043e\\u0442\\n    <input type=\\"text\\" id=\\"[[+name]]Min\\" value=\\"[[+min]]\\" name=\\"f_[[+name]][from]\\" style=\\"width:50px;\\" \\/>\\n    \\u0434\\u043e\\n    <input type=\\"text\\" id=\\"[[+name]]Max\\" value=\\"[[+max]]\\" name=\\"f_[[+name]][to]\\" style=\\"width:50px;\\" \\/>\\n<\\/div>"}',
+        'guid' => 'c57ef79ad48341772f4d832e30ddf72a',
+        'native_key' => NULL,
+        'signature' => '841130811b4f758ea5494ee20870838c',
+      ),
+      '7c05e3746f80fde80c839acd181b4c02' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tm2_filterOuterTpl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"filter_block\\">\\n    \\n    <div class=\\"filter_head\\"><h3>[[+caption]]<\\/h3><\\/div>\\n    \\n    [[+inner]]\\n\\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"<div class=\\"filter_block\\">\\n    \\n    <div class=\\"filter_head\\"><h3>[[+caption]]<\\/h3><\\/div>\\n    \\n    [[+inner]]\\n\\n<\\/div>"}',
+        'guid' => 'fd5de2ff486a379a668de12757eb9bf3',
+        'native_key' => NULL,
+        'signature' => '8be4e8ca8cd50f33e500db5888fa701c',
+      ),
+      '593363dabe4f4a276fddf3479bf48238' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tm2_filterOuterTpl_select","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"filter_block\\">\\n    \\n    <div class=\\"filter_head\\"><h3>[[+caption]]<\\/h3><\\/div>\\n    \\n    <select name=\\"f_[[+name]]\\" style=\\"width:210px;\\">\\n        <option value=\\"\\">\\u0412\\u0441\\u0435<\\/option>\\n        [[+inner]]\\n    <\\/select>\\n    \\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"<div class=\\"filter_block\\">\\n    \\n    <div class=\\"filter_head\\"><h3>[[+caption]]<\\/h3><\\/div>\\n    \\n    <select name=\\"f_[[+name]]\\" style=\\"width:210px;\\">\\n        <option value=\\"\\">\\u0412\\u0441\\u0435<\\/option>\\n        [[+inner]]\\n    <\\/select>\\n    \\n<\\/div>"}',
+        'guid' => 'c7dda8851a9f01c8337a2d24a101c1a0',
+        'native_key' => NULL,
+        'signature' => '018547f35eb8c5c98a53e6ef47d4c3d0',
+      ),
+      'bca49cb25f9d386581f103f73ca446ae' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tm2_filterTpl","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div class=\\"filter_row\\">\\n    <input type=\\"checkbox\\" id=\\"[[+name]]__[[+idx]]\\" name=\\"[[+flt_name]]\\" value=\\"[[+value]]\\" \\/>\\n    <label for=\\"[[+name]]__[[+idx]]\\">[[+value_name]]<\\/label>\\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"","content":"<div class=\\"filter_row\\">\\n    <input type=\\"checkbox\\" id=\\"[[+name]]__[[+idx]]\\" name=\\"[[+flt_name]]\\" value=\\"[[+value]]\\" \\/>\\n    <label for=\\"[[+name]]__[[+idx]]\\">[[+value_name]]<\\/label>\\n<\\/div>"}',
+        'guid' => 'e34bedfb629f0804c7df9717729ad93c',
+        'native_key' => NULL,
+        'signature' => 'b52e27adce64806e9e660cabbea5b0e7',
+      ),
+      '9fb981c6c43ba10b6eceeb15eb5d88bd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tm2_filterTpl_select","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<option value=\\"[[+value]]\\">[[+value_name]]<\\/option>","locked":0,"properties":null,"static":0,"static_file":"","content":"<option value=\\"[[+value]]\\">[[+value_name]]<\\/option>"}',
+        'guid' => '15cda17134404b3ed74a609a85fa997c',
+        'native_key' => NULL,
+        'signature' => 'a63e5a1c890c82dd0dd3eca927bb2ff5',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'a860b371d5178ff79c458d5c8000c70c' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tmFilters","description":"Print filters blocks for catalog.","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * snippet tmFilters\\n *\\n *\\/\\n\\n\\/\\/ini_set(\'display_errors\',1);\\n\\/\\/error_reporting(E_ALL);\\n\\n$create = $modx->getOption(\'create\', $scriptProperties, \'\');\\n$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\');\\n$optStyles = $modx->getOption(\'style\', $scriptProperties, 1);\\n$optJsScripts = $modx->getOption(\'jsScript\', $scriptProperties, 1);\\n\\nrequire_once MODX_CORE_PATH.\\"components\\/tag_manager2\\/model\\/tm_filters.class.php\\";\\n$tm_filters = new tmFilters($modx, $scriptProperties);\\n\\nif( $create ){\\n    $output = $tm_filters->createFilters( $create );\\n}else{\\n    $output = $tm_filters->getFiltersOutput();\\n}\\n\\nif($toPlaceholder){\\n    $modx->setPlaceholder($toPlaceholder,$output);\\n    $output = \'\';\\n}\\n\\nif( $optStyles ){\\n    $modx->regClientCSS($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/css\\/web\\/tm-style.css\\");\\n}\\n\\nif( $optJsScripts ){\\n\\n    $filtersType = $modx->getOption(\'filtersType\', $scriptProperties, \'filters\');\\n    $shk_currency_default = $modx->getOption(\'shk3.currency_default\', $scriptProperties, \'\');\\n    $shk_currency_rate = $modx->getOption(\'shk3.currency_rate\', $scriptProperties, \'\');\\n\\n    \\/\\/Get currency rate\\n    if( $shk_currency_default && empty( $shk_currency_rate ) ){\\n        require_once $modx->getOption(\'core_path\') . \\"components\\/shopkeeper3\\/model\\/shopkeeper.class.php\\";\\n        $shkConfig = Shopkeeper::getConfig(\'currency_rate\');\\n        $shk_currency_rate = isset( $shkConfig[\'currency_rate\'] )\\n            ? $shkConfig[\'currency_rate\']\\n            : array();\\n    }\\n\\n    if( $optJsScripts != 2 ){\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/jquery-ui-1.10.3.custom.min.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/jquery.history.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/{$filtersType}.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/view_switch.js\\");\\n    }\\n\\n    $options = array(\\n        \'base_url\' => $modx->getOption(\'base_url\', null, \'\\/\'),\\n        \'currency_default\' => $shk_currency_default,\\n        \'currency_rate\' => $shk_currency_rate\\n    );\\n    $headHtml = \'\\n    <script type=\\"text\\/javascript\\">\\n    var tmFiltersOptions = \'. json_encode( $options ) .\';\\n    jQuery(document).ready(function(){\\n        tmFilters.init( tmFiltersOptions );\\n    });\\n    <\\/script>\';\\n    \\n    $modx->regClientScript($headHtml,true);\\n    \\n}\\n\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * snippet tmFilters\\n *\\n *\\/\\n\\n\\/\\/ini_set(\'display_errors\',1);\\n\\/\\/error_reporting(E_ALL);\\n\\n$create = $modx->getOption(\'create\', $scriptProperties, \'\');\\n$toPlaceholder = $modx->getOption(\'toPlaceholder\', $scriptProperties, \'\');\\n$optStyles = $modx->getOption(\'style\', $scriptProperties, 1);\\n$optJsScripts = $modx->getOption(\'jsScript\', $scriptProperties, 1);\\n\\nrequire_once MODX_CORE_PATH.\\"components\\/tag_manager2\\/model\\/tm_filters.class.php\\";\\n$tm_filters = new tmFilters($modx, $scriptProperties);\\n\\nif( $create ){\\n    $output = $tm_filters->createFilters( $create );\\n}else{\\n    $output = $tm_filters->getFiltersOutput();\\n}\\n\\nif($toPlaceholder){\\n    $modx->setPlaceholder($toPlaceholder,$output);\\n    $output = \'\';\\n}\\n\\nif( $optStyles ){\\n    $modx->regClientCSS($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/css\\/web\\/tm-style.css\\");\\n}\\n\\nif( $optJsScripts ){\\n\\n    $filtersType = $modx->getOption(\'filtersType\', $scriptProperties, \'filters\');\\n    $shk_currency_default = $modx->getOption(\'shk3.currency_default\', $scriptProperties, \'\');\\n    $shk_currency_rate = $modx->getOption(\'shk3.currency_rate\', $scriptProperties, \'\');\\n\\n    \\/\\/Get currency rate\\n    if( $shk_currency_default && empty( $shk_currency_rate ) ){\\n        require_once $modx->getOption(\'core_path\') . \\"components\\/shopkeeper3\\/model\\/shopkeeper.class.php\\";\\n        $shkConfig = Shopkeeper::getConfig(\'currency_rate\');\\n        $shk_currency_rate = isset( $shkConfig[\'currency_rate\'] )\\n            ? $shkConfig[\'currency_rate\']\\n            : array();\\n    }\\n\\n    if( $optJsScripts != 2 ){\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/jquery-ui-1.10.3.custom.min.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/jquery.history.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/{$filtersType}.js\\");\\n        $modx->regClientScript($modx->config[\'assets_url\'].\\"components\\/tag_manager2\\/js\\/web\\/view_switch.js\\");\\n    }\\n\\n    $options = array(\\n        \'base_url\' => $modx->getOption(\'base_url\', null, \'\\/\'),\\n        \'currency_default\' => $shk_currency_default,\\n        \'currency_rate\' => $shk_currency_rate\\n    );\\n    $headHtml = \'\\n    <script type=\\"text\\/javascript\\">\\n    var tmFiltersOptions = \'. json_encode( $options ) .\';\\n    jQuery(document).ready(function(){\\n        tmFilters.init( tmFiltersOptions );\\n    });\\n    <\\/script>\';\\n    \\n    $modx->regClientScript($headHtml,true);\\n    \\n}\\n\\nreturn $output;"}',
+        'guid' => 'db25f6a59d59bc30ac064f8ec78fb6d5',
+        'native_key' => NULL,
+        'signature' => 'ce015bcde65dba3b19c24c639684c830',
+      ),
+      'c4e337c835d9467a1117f8b9a5dd2849' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"tmCatalog","description":"\\u041eutput of product\\u044b in the catalog.","editor_type":0,"category":0,"cache_type":0,"snippet":"\\/**\\n * snippet tmCatalog\\n *\\n *\\/\\n\\n\\/\\/error_reporting(E_ALL);\\n\\/\\/ini_set(\'display_errors\',1);\\n\\n$config = array(\\n    \'snippet\' => $modx->getOption(\'tag_mgr2.propertySetSnippet\',null,\'getPage\'),\\n    \'elementClass\' => \'modSnippet\',\\n    \'element\' => \'getProducts\'\\n);\\n\\n$output = \'\';\\n\\nrequire_once MODX_CORE_PATH.\\"components\\/tag_manager2\\/model\\/tm_catalog.class.php\\";\\n$tm_catalog = new tmCatalog($modx, $scriptProperties);\\n\\n\\/\\/\\u041f\\u0440\\u0438\\u0432\\u043e\\u0434\\u0438\\u043c \\u0441\\u0442\\u0440\\u043e\\u043a\\u0443 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u043a \\u043d\\u043e\\u0440\\u043c\\u0430\\u043b\\u044c\\u043d\\u043e\\u043c\\u0443 \\u0432\\u0438\\u0434\\u0443\\nlist($flt_arr, $parents) = $tm_catalog->getRequestParams();\\n\\n$snippetProperties = $tm_catalog->getSnippetProperties();\\n\\n$show = isset($_GET[\'show\']) && !is_array($_GET[\'show\']) ? htmlspecialchars(urldecode(trim($_GET[\'show\']))) : \'\';\\n$limit = isset($_GET[\'limit\']) && is_numeric($_GET[\'limit\']) ? $_GET[\'limit\'] : $snippetProperties[\'limit\'];\\n$debug = isset($snippetProperties[\'debug\']) ? $snippetProperties[\'debug\'] : false;\\n$sortby = isset($_GET[\'sortby\']) && !is_array($_GET[\'sortby\']) ? htmlspecialchars(trim($_GET[\'sortby\'])) : $modx->getOption(\'sortby\',$snippetProperties,\'pagetitle\');\\n$sortdir = isset($_GET[\'sortdir\']) && !is_array($_GET[\'sortdir\']) ? htmlspecialchars(trim($_GET[\'sortdir\'])) : $modx->getOption(\'sortdir\',$snippetProperties,\'asc\');\\n$orderby = isset($snippetProperties[\'orderby\']) ? json_decode($snippetProperties[\'orderby\'], true) : array(); \\/\\/\\u0431\\u0435\\u0440\\u0435\\u043c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440 orderby \\u0438\\u0437 \\u043d\\u0430\\u0441\\u0442\\u0440\\u043e\\u0435\\u043a, \\u0433\\u0434\\u0435 \\u043e\\u043d \\u0445\\u0440\\u0430\\u043d\\u0438\\u0442\\u0441\\u044f \\u0432 \\u0432\\u0438\\u0434\\u0435 {\\"stock\\":\\"DESC\\"} \\nif(strtolower($sortdir)==\'rand\' || strtolower($sortby)==\'rand\') { $sortby = \'RAND()\'; }\\n\\n$sorting = $tm_catalog->getSorting($sortby, $sortdir);\\n\\n\\/* \\u043e\\u0431\\u044a\\u0435\\u0434\\u0438\\u043d\\u044f\\u0435\\u043c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440 $orderby \\u0441 \\u0441\\u043e\\u0440\\u0442\\u0438\\u0440\\u043e\\u0432\\u043a\\u043e\\u0439 *\\/\\n$orderby[$sorting[\'sortby\']] = $sorting[\'sortdir\'];\\n$sorting[\'orderby\'] = json_encode($orderby);\\n\\n$properties = array_merge($config, $snippetProperties, $sorting);\\n\\nif(count($flt_arr) > 0){\\n    if(isset($properties[\'className\']) && $properties[\'className\'] != \'modResource\'){\\n        $where_arr = !empty($properties[\'where\']) ? $modx->fromJSON($properties[\'where\']) : array();\\n        $where_arr = array_merge($where_arr, $flt_arr);\\n        $properties[\'where\'] = json_encode($where_arr);\\n        $properties[\'tvFilters\'] = \'\';\\n    }else{\\n        $properties[\'tvFilters\'] = json_encode($flt_arr);\\n    }\\n}\\n\\nif(count($parents)>0) $properties[\'parents\'] = implode(\',\',$parents);\\n\\n\\/\\/if($debug) echo \'<pre>\'.print_r($properties,true).\'<\\/pre>\';\\n\\n$output .= $modx->runSnippet($config[\'snippet\'], $properties);\\n\\nif(isset($modx->sanitizePatterns[\'tags1\'])) $output = preg_replace($modx->sanitizePatterns[\'tags1\'], \'\', $output);\\nif(isset($modx->sanitizePatterns[\'tags2\'])) $output = preg_replace($modx->sanitizePatterns[\'tags2\'], \'\', $output);\\n\\nreturn $output;","locked":0,"properties":"a:0:{}","moduleguid":"","static":0,"static_file":"","content":"\\/**\\n * snippet tmCatalog\\n *\\n *\\/\\n\\n\\/\\/error_reporting(E_ALL);\\n\\/\\/ini_set(\'display_errors\',1);\\n\\n$config = array(\\n    \'snippet\' => $modx->getOption(\'tag_mgr2.propertySetSnippet\',null,\'getPage\'),\\n    \'elementClass\' => \'modSnippet\',\\n    \'element\' => \'getProducts\'\\n);\\n\\n$output = \'\';\\n\\nrequire_once MODX_CORE_PATH.\\"components\\/tag_manager2\\/model\\/tm_catalog.class.php\\";\\n$tm_catalog = new tmCatalog($modx, $scriptProperties);\\n\\n\\/\\/\\u041f\\u0440\\u0438\\u0432\\u043e\\u0434\\u0438\\u043c \\u0441\\u0442\\u0440\\u043e\\u043a\\u0443 \\u0444\\u0438\\u043b\\u044c\\u0442\\u0440\\u0430\\u0446\\u0438\\u0438 \\u043a \\u043d\\u043e\\u0440\\u043c\\u0430\\u043b\\u044c\\u043d\\u043e\\u043c\\u0443 \\u0432\\u0438\\u0434\\u0443\\nlist($flt_arr, $parents) = $tm_catalog->getRequestParams();\\n\\n$snippetProperties = $tm_catalog->getSnippetProperties();\\n\\n$show = isset($_GET[\'show\']) && !is_array($_GET[\'show\']) ? htmlspecialchars(urldecode(trim($_GET[\'show\']))) : \'\';\\n$limit = isset($_GET[\'limit\']) && is_numeric($_GET[\'limit\']) ? $_GET[\'limit\'] : $snippetProperties[\'limit\'];\\n$debug = isset($snippetProperties[\'debug\']) ? $snippetProperties[\'debug\'] : false;\\n$sortby = isset($_GET[\'sortby\']) && !is_array($_GET[\'sortby\']) ? htmlspecialchars(trim($_GET[\'sortby\'])) : $modx->getOption(\'sortby\',$snippetProperties,\'pagetitle\');\\n$sortdir = isset($_GET[\'sortdir\']) && !is_array($_GET[\'sortdir\']) ? htmlspecialchars(trim($_GET[\'sortdir\'])) : $modx->getOption(\'sortdir\',$snippetProperties,\'asc\');\\n$orderby = isset($snippetProperties[\'orderby\']) ? json_decode($snippetProperties[\'orderby\'], true) : array(); \\/\\/\\u0431\\u0435\\u0440\\u0435\\u043c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440 orderby \\u0438\\u0437 \\u043d\\u0430\\u0441\\u0442\\u0440\\u043e\\u0435\\u043a, \\u0433\\u0434\\u0435 \\u043e\\u043d \\u0445\\u0440\\u0430\\u043d\\u0438\\u0442\\u0441\\u044f \\u0432 \\u0432\\u0438\\u0434\\u0435 {\\"stock\\":\\"DESC\\"} \\nif(strtolower($sortdir)==\'rand\' || strtolower($sortby)==\'rand\') { $sortby = \'RAND()\'; }\\n\\n$sorting = $tm_catalog->getSorting($sortby, $sortdir);\\n\\n\\/* \\u043e\\u0431\\u044a\\u0435\\u0434\\u0438\\u043d\\u044f\\u0435\\u043c \\u043f\\u0430\\u0440\\u0430\\u043c\\u0435\\u0442\\u0440 $orderby \\u0441 \\u0441\\u043e\\u0440\\u0442\\u0438\\u0440\\u043e\\u0432\\u043a\\u043e\\u0439 *\\/\\n$orderby[$sorting[\'sortby\']] = $sorting[\'sortdir\'];\\n$sorting[\'orderby\'] = json_encode($orderby);\\n\\n$properties = array_merge($config, $snippetProperties, $sorting);\\n\\nif(count($flt_arr) > 0){\\n    if(isset($properties[\'className\']) && $properties[\'className\'] != \'modResource\'){\\n        $where_arr = !empty($properties[\'where\']) ? $modx->fromJSON($properties[\'where\']) : array();\\n        $where_arr = array_merge($where_arr, $flt_arr);\\n        $properties[\'where\'] = json_encode($where_arr);\\n        $properties[\'tvFilters\'] = \'\';\\n    }else{\\n        $properties[\'tvFilters\'] = json_encode($flt_arr);\\n    }\\n}\\n\\nif(count($parents)>0) $properties[\'parents\'] = implode(\',\',$parents);\\n\\n\\/\\/if($debug) echo \'<pre>\'.print_r($properties,true).\'<\\/pre>\';\\n\\n$output .= $modx->runSnippet($config[\'snippet\'], $properties);\\n\\nif(isset($modx->sanitizePatterns[\'tags1\'])) $output = preg_replace($modx->sanitizePatterns[\'tags1\'], \'\', $output);\\nif(isset($modx->sanitizePatterns[\'tags2\'])) $output = preg_replace($modx->sanitizePatterns[\'tags2\'], \'\', $output);\\n\\nreturn $output;"}',
+        'guid' => 'd7de0add5a4e329814ad07aae39a58d7',
+        'native_key' => NULL,
+        'signature' => '4d0e24d776dff8fef4d5b003692c9537',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'TemplateVars' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+      'related_objects' => true,
+      'related_object_attributes' => 
+      array (
+        'PluginEvents' => 
+        array (
+          'preserve_keys' => true,
+          'update_object' => false,
+          'unique_key' => 
+          array (
+            0 => 'pluginid',
+            1 => 'event',
+          ),
+        ),
+      ),
+    ),
+  ),
+  'namespace' => 'tag_manager2',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"tagmanager2-2.3.1-pl2\\/modCategory\\/0e44abf4c230381cb7f1a483036d4c87\\/0\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"tag_manager2"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"tagmanager2-2.3.1-pl2\\/modCategory\\/0e44abf4c230381cb7f1a483036d4c87\\/1\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"tag_manager2"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"tagmanager2-2.3.1-pl2\\/modCategory\\/0e44abf4c230381cb7f1a483036d4c87.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '11e98955e41fa24dba2b8759ce2f737c',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '0e44abf4c230381cb7f1a483036d4c87',
+  'native_key' => 1,
+  'object' => '{"id":1,"parent":0,"category":"tagManager2","rank":0}',
+);

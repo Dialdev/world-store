@@ -1,0 +1,276 @@
+# MODX supports Friendly URLs via this .htaccess file. You must serve web
+# pages via Apache with mod_rewrite to use this functionality, and you must
+# change the file name from ht.access to .htaccess.
+#
+# Make sure RewriteBase points to the directory where you installed MODX.
+# E.g., "/modx" if your installation is in a "modx" subdirectory.
+#
+# You may choose to make your URLs non-case-sensitive by adding a NC directive
+# to your rule: RewriteRule ^(.*)$ index.php?q=$1 [L,QSA,NC]
+
+RewriteEngine On
+RewriteBase /
+
+
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^world-store\.su [NC]
+RewriteRule (.*) https://world-store.su/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ 
+RewriteRule ^index\.php$ https://world-store.su/ [R=301,L]
+
+# Со всех слэшей ///////
+RewriteCond %{THE_REQUEST} ([^\s]*)\/{2,}(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} /+[^.]+$
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml
+RewriteCond %{REQUEST_URI} !^/yandex\.xml
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+
+
+RewriteCond %{QUERY_STRING} ^(.*)iphone-produktsiya
+RewriteRule ^(.*)$ iphone? [R=301,L]
+
+RewriteRule ^(.+/)*iphone-produktsiya/(.+)$ $1iphone/$2 [L,R=301]
+
+RewriteRule ^(.+/)*kupit/ipad/(.+)$ $1ipad/$2 [L,R=301]
+RewriteRule ^(.+/)*kupit/ipod/(.+)$ $1ipod/$2 [L,R=301]
+RewriteRule ^(.+/)*news/(.+)$ $1novosti/$2 [L,R=301]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.*$ $0.html [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\.html(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.*$ $0.html [L,QSA]
+RewriteCond %{THE_REQUEST} ([^\s]*)\-detail(\?[^\s]*)?
+RewriteRule (.*) %1 [R=301,L]
+
+RewriteRule ^ipad/ipad-pro/$ http://world-store.su/ipad/ipad-pro-12.9/ [R=301,L]
+RewriteRule ^ipad/ipad-pro-9-7$ http://world-store.su/ipad/ipad-pro-9.7/ [R=301,L]
+RewriteRule ^ipad/ipad-mini$ http://world-store.su/ipad/ipad-mini-4/ [R=301,L]
+RewriteRule ^service/remont-i-servisnoe-obsluzhivanie$ http://world-store.su/servis/ [R=301,L]
+RewriteRule ^kontakty$ http://world-store.su/kontaktyi/ [R=301,L]
+RewriteRule ^kontaktyi.html$ http://world-store.su/kontaktyi/ [R=301,L]
+RewriteRule ^iphone-produktsiya/iphone-4s$ http://world-store.su/iphone/ [R=301,L]
+RewriteRule ^iphone-produktsiya/iphone-4$ http://world-store.su/iphone/ [R=301,L]
+RewriteRule ^mac/noutbuki-apple$ http://world-store.su/mac/macbook/ [R=301,L]
+RewriteRule ^kredit$ http://world-store.su/kontaktyi/ [R=301,L]
+RewriteRule ^iphone-produktsiya/iphone-5c$ http://world-store.su/iphone/iphone-5s/ [R=301,L]
+RewriteRule ^ipad/ipad-air$ http://world-store.su/ipad/ipad-air-2/ [R=301,L]
+RewriteRule ^review$ http://world-store.su/otzyivyi/ [R=301,L]
+RewriteRule ^korzina.html$ http://world-store.su/korzina [R=301,L]
+RewriteRule ^iphone-produktsiya$ http://world-store.su/iphone/ [R=301,L]
+RewriteRule ^kupit/ipad$ http://world-store.su/ipad/ [R=301,L]
+RewriteRule ^kupit/ipod$ http://world-store.su/ipod/ [R=301,L]
+RewriteRule ^news$ http://world-store.su/novosti/ [R=301,L]
+
+RewriteRule ^ipad/ipad-pro-12.9/$ http://world-store.su/ipad/apple-ipad-pro-12.9-(2018)/ [R=301,L]
+
+RewriteRule ^iphone/iphone-7-plus/iphone-7-256gb-jet-black/$ http://world-store.su/iphone/iphone-7-plus/ [R=301,L]
+RewriteRule ^iphone/iphone-7-plus/iphone-7-256gb-rose-gold/$ http://world-store.su/iphone/iphone-7-plus/ [R=301,L]
+RewriteRule ^iphone/iphone-7-plus/iphone-7-256-gb-red/$ http://world-store.su/iphone/iphone-7-plus/ [R=301,L]
+
+RewriteRule ^iphone/iphone-6s/iphone-6s-128gb-gold/$ http://world-store.su/iphone/iphone-6s/ [R=301,L]
+RewriteRule ^iphone/iphone-6s/iphone-6s-128gb-space-gray/$ http://world-store.su/iphone/iphone-6s/ [R=301,L]
+RewriteRule ^iphone/iphone-6s/iphone-6s-128gb-rose-gold/$ http://world-store.su/iphone/iphone-6s/ [R=301,L]
+
+RewriteRule ^iphone/iphone-7/iphone-7-256gb-silver/$ http://world-store.su/iphone/iphone-7/ [R=301,L]
+RewriteRule ^iphone/iphone-7/iphone-7-256gb-black/$ http://world-store.su/iphone/iphone-7/ [R=301,L]
+RewriteRule ^iphone/iphone-7/iphone-7-256gb-gold/$ http://world-store.su/iphone/iphone-7/ [R=301,L]
+
+RewriteRule ^ipad/ipad-mini-4/apple-ipad-mini-4-32gb-silver-﻿/$ http://world-store.su/ipad/ipad-mini-4/ [R=301,L]
+RewriteRule ^ipad/ipad-mini-4/apple-ipad-mini-4-64gb-space-grey/$ http://world-store.su/ipad/ipad-mini-4/ [R=301,L]
+RewriteRule ^ipad/ipad-mini-4/apple-ipad-mini-4-64gb-silver/$ http://world-store.su/ipad/ipad-mini-4/ [R=301,L]
+
+RewriteRule ^iphone/iphone-se/iphone-se-128gb-gray/$ http://world-store.su/iphone/iphone-se/ [R=301,L]
+RewriteRule ^iphone/iphone-se/iphone-se-128gb-rose-gold/$ http://world-store.su/iphone/iphone-se/ [R=301,L]
+
+RewriteRule ^iphone/iphone-6/iphone-6-16gb-space-grey/$ http://world-store.su/iphone/ [R=301,L]
+RewriteRule ^iphone/iphone-6/$ http://world-store.su/iphone/ [R=301,L]
+
+RewriteRule ^aksessuaryi/naushniki/airpods-bluetooth/$ http://world-store.su/aksessuaryi/naushniki/ [R=301,L]
+
+RewriteRule ^apple-watch/apple-watch-3/apple-watch-series-3-42mm-zolotistyij-alyuminij/$ http://world-store.su/apple-watch/apple-watch-3/ [R=301,L]
+RewriteRule ^apple-watch/apple-watch-3/apple-watch-series-3-38mm-zolotistyij-alyuminij/$ http://world-store.su/apple-watch/apple-watch-3/ [R=301,L]
+
+RewriteRule ^mac/macbook-12/macbook-air-13-dyujmov-(2018)/$ http://world-store.su/mac/macbook-12/ [R=301,L]
+
+RewriteRule ^mac/kopiya-macbook-pro-15-touch-bar-(2017)/kopiya-macbook-pro-touch-bar-512gb-space-gray/$ http://world-store.su/mac/ [R=301,L]
+
+RewriteRule ^ipad/ipad-mini-4/$ http://world-store.su/ipad/ [R=301,L]
+
+RewriteRule ^ipad/ipad-pro-9.7/$ http://world-store.su/ipad/ [R=301,L]
+
+RewriteRule ^servis/$	https://world-store.su/uslugi/servis/ [R=301,L]
+RewriteRule ^servis/remont-ipad-2/$	https://world-store.su/uslugi/servis/remont-ipad-2/ [R=301,L]
+RewriteRule ^servis/remont-ipad-air/$	https://world-store.su/uslugi/servis/remont-ipad-air/ [R=301,L]
+RewriteRule ^servis/remont-ipad-mini/$	https://world-store.su/uslugi/servis/remont-ipad-mini/ [R=301,L]
+RewriteRule ^servis/remont-ipad/$	https://world-store.su/uslugi/servis/remont-ipad/ [R=301,L]
+RewriteRule ^servis/remont-iphone-4/$	https://world-store.su/uslugi/servis/remont-iphone-4/ [R=301,L]
+RewriteRule ^servis/remont-iphone-5/$	https://world-store.su/uslugi/servis/remont-iphone-5/ [R=301,L]
+RewriteRule ^servis/remont-iphone-6/$	https://world-store.su/uslugi/servis/remont-iphone-6/ [R=301,L]
+
+
+RewriteRule ^iphone/iphone-7plus/$ http://world-store.su/iphone/iphone-7-plus/ [R=301,L]
+RewriteRule ^iphone/iphone-5/$ http://world-store.su/iphone/ [R=301,L]
+RewriteRule ^service/$ http://world-store.su/servis/ [R=301,L]
+RewriteRule ^ipad/ipad-air-2/$ http://world-store.su/ipad/ [R=301,L]
+#RewriteRule ^ipad/$ http://world-store.su/ipad/ipad-mini-4/ [R=301,L]
+
+# Rewrite www.domain.com -> domain.com -- used with SEO Strict URLs plugin
+#RewriteCond %{HTTP_HOST} .
+#RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+#RewriteRule ^(.*)$ http://%1/$1/ [R=301,L]
+
+# or for the opposite domain.com -> www.domain.com use the following
+# DO NOT USE BOTH
+#
+#RewriteCond %{HTTP_HOST} !^$
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteCond %{HTTP_HOST} (.+)$
+#RewriteRule ^(.*)$ http://www.%1/$1 [R=301,L] .
+
+# Rewrite secure requests properly to prevent SSL cert warnings, e.g. prevent 
+# https://www.domain.com when your cert only allows https://secure.domain.com
+#RewriteCond %{SERVER_PORT} !^443
+#RewriteRule (.*) https://example-domain-please-change.com/$1 [R=301,L]
+
+
+
+# The Friendly URLs part
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
+
+
+
+# Make sure .htc files are served with the proper MIME type, which is critical
+# for XP SP2. Un-comment if your host allows htaccess MIME type overrides.
+
+#AddType text/x-component .htc
+
+
+
+# If your server is not already configured as such, the following directive
+# should be uncommented in order to set PHP's register_globals option to OFF.
+# This closes a major security hole that is abused by most XSS (cross-site
+# scripting) attacks. For more information: http://php.net/register_globals
+#
+# To verify that this option has been set to OFF, open the Manager and choose
+# Reports -> System Info and then click the phpinfo() link. Do a Find on Page
+# for "register_globals". The Local Value should be OFF. If the Master Value
+# is OFF then you do not need this directive here.
+#
+# IF REGISTER_GLOBALS DIRECTIVE CAUSES 500 INTERNAL SERVER ERRORS :
+#
+# Your server does not allow PHP directives to be set via .htaccess. In that
+# case you must make this change in your php.ini file instead. If you are
+# using a commercial web host, contact the administrators for assistance in
+# doing this. Not all servers allow local php.ini files, and they should
+# include all PHP configurations (not just this one), or you will effectively
+# reset everything to PHP defaults. Consult www.php.net for more detailed
+# information about setting PHP directives.
+
+#php_flag register_globals Off
+
+
+
+# For servers that support output compression, you should pick up a bit of
+# speed by un-commenting the following lines.
+
+#php_flag zlib.output_compression On
+#php_value zlib.output_compression_level 5
+
+
+
+# The following directives stop screen flicker in IE on CSS rollovers. If
+# needed, un-comment the following rules. When they're in place, you may have
+# to do a force-refresh in order to see changes in your designs.
+
+#ExpiresActive On
+#ExpiresByType image/gif A2592000
+#ExpiresByType image/jpeg A2592000
+#ExpiresByType image/png A2592000
+#BrowserMatch "MSIE" brokenvary=1
+#BrowserMatch "Mozilla/4.[0-9]{2}" brokenvary=1
+#BrowserMatch "Opera" !brokenvary
+#SetEnvIf brokenvary 1 force-no-vary
+
+
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  <IfModule mod_setenvif.c>
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  </IfModule>
+</IfModule>
+
+<ifModule mod_expires.c>
+
+ ExpiresActive On
+ #кэшировать флэш и изображения на месяц
+ ExpiresByType image/x-icon "access plus 7 days"
+ ExpiresByType image/jpeg "access plus 7 days"
+ ExpiresByType image/png "access plus 7 days"
+ ExpiresByType image/gif "access plus 7 days"
+ ExpiresByType application/x-shockwave-flash "access plus 7 days"
+ #кэшировать css, javascript и текстовые файлы на одну неделю
+ ExpiresByType text/css "access plus 7 days"
+ ExpiresByType text/javascript "access plus 7 days"
+ ExpiresByType application/javascript "access plus 7 days"
+ ExpiresByType application/x-javascript "access plus 7 days"
+ #кэшировать html и htm файлы на один день
+ ExpiresByType text/html "access plus 1 day"
+ #кэшировать xml файлы на десять минут
+ ExpiresByType application/xhtml+xml "access plus 10 minutes"
+</ifModule>
+<IfModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_can_negotiate Yes
+mod_gzip_update_static Yes
+mod_gzip_static_suffix .gz
+AddEncoding gzip .gz
+mod_gzip_minimum_file_size 200
+mod_gzip_maximum_file_size 5000000
+mod_gzip_maximum_inmem_size 60000
+mod_gzip_min_http 1000
+mod_gzip_handle_methods GET POST
+mod_gzip_temp_dir /tmp
+mod_gzip_keep_workfiles No
+mod_gzip_dechunk Yes
+mod_gzip_send_vary On
+mod_gzip_item_include file \.htm$
+mod_gzip_item_include file \.html$
+mod_gzip_item_include file \.php$
+mod_gzip_item_include file \.txt$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include file \.js$
+mod_gzip_item_include file \.css$
+mod_gzip_item_include file \.rdf$
+mod_gzip_item_include file \.xml$
+mod_gzip_item_include file \.rss$
+mod_gzip_item_include mime ^application/x-httpd-php
+mod_gzip_item_include mime ^application/x-javascript
+mod_gzip_item_include mime ^application/javascript
+mod_gzip_item_include mime ^text/css$
+mod_gzip_item_include mime ^text/plain$
+mod_gzip_item_include mime ^text/xml$
+mod_gzip_item_exclude reqheader "User-agent: Mozilla/4.0[678]"
+</IfModule>
